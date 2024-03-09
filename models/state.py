@@ -1,11 +1,14 @@
 #!/usr/bin/python3
-"""A module creating a User class"""
-
+"""Defining the State class."""
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """Class to manage state objects"""
+    """Representing a state.
+
+    Attributes:
+        name (str): The name of the state.
+    """
 
     name = ""
 
